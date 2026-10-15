@@ -12,8 +12,8 @@ function Mouse({ size = 1}: {size?: number}) {
             <div className={`flex-1 ${pressed[0] ? "bg-blue-500" : "bg-gray-300"}`}></div>
             <div className="flex w-8 items-end justify-center border-x-2">
               <div className={`mb-0.5 h-[50%] w-[80%] rounded-lg border-2 overflow-hidden flex flex-col ${pressed[1] ? "bg-blue-400" : "bg-gray-500"}`}>
-                  <div className={`flex-1 ${pressed[5] ? "bg-blue-400" : ""}`}></div>
-                  <div className={`flex-1 ${pressed[6] ? "bg-blue-400" : ""}`}></div>
+                  <div className={`flex-1 ${pressed[5] ? "bg-green-400" : ""}`}></div>
+                  <div className={`flex-1 ${pressed[6] ? "bg-green-400" : ""}`}></div>
               </div>
             </div>
             <div className={`flex-1 ${pressed[2] ? "bg-blue-500" : "bg-gray-300"}`}></div>
